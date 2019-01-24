@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    color: rgb(78, 21, 21);
+    color: rgb(54, 14, 14);
 }
 .top{
     display:flex;
@@ -12,7 +12,7 @@ body{
 }
 .top-logo{
 
-color:rgb(134, 21, 21);
+color:rgb(192, 59, 81);
 font-weight:700;
 font-size:30px;
 width:800px;
@@ -34,20 +34,26 @@ text-align:center;
 }
 .myorder{
     margin:10px;
-    height:300px;
+    height:500px;
     font-size:30px;
-    background-color : rgb(247, 233, 235);
+    background-color : rgb(250, 201, 209);
 }
 .category{
-    height:700px;
+    height:600px;
     font-size:30px;
     margin:10px;
+}
+.number1{
+    color : red;
+}
+.number2{
+    color : green;
 }
 .other{
     margin:10px;
     flex:1;
     font-size:30px;
-    background-color : rgb(255, 232, 234);
+    background-color : rgb(250, 201, 209);
 }
 .bottom{
     border:3px solid;
@@ -58,4 +64,21 @@ table{
     display:inline-table;
     font-size:20px;
     background-color:rgb(247, 238, 241)
+}
+image{
+    width : 2px;
+    height : 2px;
+}
+.table-control{
+    margin:auto;
+    width:800px;
+    height:200px;
+    overflow:auto;
+}
+button{
+    color : rgb(255, 255, 255);
+    background:rgb(201, 77, 98);
+    font-size:15px;
+    border-radius:0.8em;
+    align-items:center;
 }
